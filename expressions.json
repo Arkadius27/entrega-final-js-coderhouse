@@ -1,0 +1,9 @@
+{
+    "expressions": [
+        {"expression": "2+2", "result": 4},
+        {"expression": "10-5", "result": 5},
+        {"expression": "3*7", "result": 21},
+        {"expression": "20/4", "result": 5}
+    ]
+}
+

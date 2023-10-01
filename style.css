@@ -1,0 +1,80 @@
+/* styles */
+.calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* result input */
+#result {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    background-color: #f4f4f4;
+}
+
+/* buttons container */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* buttons */
+button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* clear button */
+#clear {
+    grid-column: span 1;
+    background-color: #ff6600;
+}
+
+/* calculate button */
+#calculate {
+    grid-column: span 2;
+    background-color: #ff6600;
+}
+
+#clear:hover, #calculate:hover {
+    background-color: #ff8533;
+}
+
+/* Fetch Expression */
+#fetchExpression {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0099cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#fetchExpression:hover {
+    background-color: #00b3cc;
+}
