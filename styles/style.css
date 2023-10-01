@@ -1,9 +1,13 @@
+* {
+    background-color: #272727;
+}
+
 /* styles */
 .calculator {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #272727;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -12,7 +16,7 @@
 
 /* result input */
 #result {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     font-size: 24px;
     margin-bottom: 10px;
@@ -54,7 +58,7 @@ button:hover {
 
 /* calculate button */
 #calculate {
-    grid-column: span 2;
+    grid-column: span 1;
     background-color: #ff6600;
 }
 
